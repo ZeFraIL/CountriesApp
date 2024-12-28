@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF05102C"
+    android:orientation="vertical"
+    tools:context=".Junction">
+
+    <TextView
+        android:id="@+id/tvCountries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/itimregular"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Countries:"
+        android:textColor="#FFF8FF"
+        android:textSize="40sp"/>
+
+    <ListView
+        android:id="@+id/cList"
+        android:layout_width="match_parent"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="600dp"
+        android:background="#EDFFF8FF" />
+</LinearLayout>
